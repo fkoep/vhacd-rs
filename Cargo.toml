@@ -1,0 +1,13 @@
+[package]
+name = "vhacd"
+version = "0.0.0"
+authors = ["Felix Köpge <fkoep@mailbox.org>"]
+license = "MIT"
+
+[dependencies]
+cpp = "0.3"
+libc = "0.2"
+
+[build-dependencies]
+cpp_build = "0.3"
+cmake = "0.1"
